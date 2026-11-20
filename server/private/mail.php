@@ -258,7 +258,7 @@ function send_notification(PDO $pdo, string $email, array $to, string $confirmat
     $mail->isHTML(false);
     $mail->Subject = "Nouvelle inscription : {$s['name']} ({$s['email']})";
     $mail->Body = implode("\n", [
-        'Nouvelle inscription aux nouvelles de Gamebox Hero.',
+        'Nouvelle inscription à la newsletter de MARVEL CHAMPIONS TABLE.',
         '',
         "Nom     : {$s['name']}",
         "E-mail  : {$s['email']}",
